@@ -46,11 +46,6 @@ rails db:migrate
 rails server
 ```
 
-## How edit works
-
--Add at least one user
--Type the path with the id (i.e. `http://localhost:3000/`)
--Click on update.
 
 ## Authors
 
