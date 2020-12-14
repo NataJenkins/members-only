@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
   before_action :set_post, only: %i[show edit update destroy]
   before_action :authenticate_user!, except: %i[new show index]
+  skip_before_action :verify_authenticity_token
 
   # GET /posts
   # GET /posts.json
