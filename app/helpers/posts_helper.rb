@@ -1,3 +1,5 @@
+# rubocop:disable Style/IfUnlessModifier
+
 module PostsHelper
   def check
     @posts.each do |post|
@@ -7,3 +9,5 @@ module PostsHelper
     end
   end
 end
+
+# rubocop:enable Style/IfUnlessModifier
